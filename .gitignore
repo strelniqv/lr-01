@@ -1,3 +1,14 @@
 app
-app.exe
 *.o
+*.i
+*.s
+.vscode/
+.vs/
+.idea/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
