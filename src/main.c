@@ -1,8 +1,11 @@
 #include "arrays.h"
 #include <stdio.h>
+#include <windows.h>
 
 int main()
 {
+    SetConsoleOutputCP(65001);
+
     double A[CAPACITY];
     double B[CAPACITY];
     double p[3];
